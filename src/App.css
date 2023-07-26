@@ -1,0 +1,142 @@
+h1{
+  text-align: center;
+  margin-top: -24px;
+  font-family: cursive;
+  color: white;
+}
+.top{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.logo{
+  margin-top: 20px;
+  align-items: center;
+}
+hr{
+  height:1px;
+  width:90%;
+  background-color:rgb(159, 117, 153);
+  border-color:black;
+  border-width: 1px;
+}
+.search{
+  font-family: cursive;
+  height: 38px;
+  width:140px;
+  margin-left: 40%;
+  margin-top: -6px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  border-width: 1px;
+  border-color: rgb(159, 117, 153);
+  display:inline-flex;
+  
+}
+.search2{
+  background-color: rgb(159, 117, 153);
+  width:30px;
+}
+.butt{
+  font-family: cursive;
+  height: 40px;
+  width:200px;
+  margin-left:20px;
+  margin-bottom: -30px;
+  border-radius: 8px;
+  border-width: 0px;
+  background-color: rgb(159, 117, 153);
+  color:aliceblue;
+  font-size: 15px;
+  display: block;
+  }
+.butt:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.logo2{
+ color:aliceblue;
+}
+
+.pencil{
+  color:aliceblue;
+  margin-left: 10px;  
+ }
+ .pencil:hover{
+   color:black;
+ }
+ .trash{
+  color:aliceblue;
+  margin-left: 10px; 
+ }
+ .trash:hover{
+  color:rgb(226, 75, 75);
+}
+.new_contact{
+  font-family: cursive;
+  height: 40px;
+  width:200px;
+  margin-left:20px;
+  border-radius: 8px;
+  border-width: 0px;
+  background-color: #9f7599;
+  color:aliceblue;
+  font-size: 15px;
+  display: block;
+  }
+  .new_contact:hover{
+    background-color: rgb(159, 117, 153);
+  }
+  #form1{
+    background-color:rgb(196, 149, 185);
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 70px;
+    border-radius: 5px;
+    border-width: 5px;
+    border-color: rgb(117, 61, 107);
+    border-style:ridge;
+    font-family: cursive;
+    color:beige;
+    margin-left: 34%;
+    margin-top: 0px;
+    height:200px;
+    width:250px;
+    display: none;
+  }
+  #save{
+    display:none;
+    background-color: #753d6b;
+    color:beige;
+    border-radius:5px ;
+    margin-left: 487px;
+    margin-top: 10px;
+    height : 50px;
+    width : 100px;
+  }
+  #done{
+    display:none;
+  }
+  #update{
+    display:none;
+    background-color:#5c3054;
+    color:beige;
+    border-radius:5px ;
+    margin-left: 420px;
+    margin-top: 10px;
+    height : 50px;
+    align-content: center;
+    width : 100px;
+  }
+  #delete{
+    display:none;
+    background-color: #cb2e2e;
+    color:beige;
+    border-radius:5px ;
+    margin-left: 40px;
+    margin-top: 10px;
+    height : 50px;
+    align-content: center;
+    width : 100px;
+  }
+
